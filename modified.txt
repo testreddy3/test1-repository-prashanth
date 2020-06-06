@@ -1,2 +1,4 @@
 testing staging modified files
-modified again
+modified again 1
+modified again 2
+modified again after commit 1
