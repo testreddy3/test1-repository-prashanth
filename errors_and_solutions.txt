@@ -1,0 +1,9 @@
+$ git pull https://github.com/testreddy3/test1-repository-prashanth.git
+From https://github.com/testreddy3/test1-repository-prashanth
+ * branch            HEAD       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+solution :
+The error is resolved by toggling the allow-unrelated-histories switch. After a git pull or git merge command, add the following tag:
+
+git pull origin master --allow-unrelated-histories
