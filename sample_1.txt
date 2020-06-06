@@ -1,0 +1,7 @@
+testing remote branches
+
+If you do some work on your local master branch, and, in the meantime, someone else pushes to git.ourcompany.com and updates its master branch, then your histories move forward differently. 
+
+Also, as long as you stay out of contact with your origin server, your origin/master pointer doesn’t move.
+
+
